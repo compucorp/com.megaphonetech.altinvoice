@@ -20,7 +20,7 @@
   <compatibility>
     <ver>5.4</ver>
   </compatibility>
-  <comments>This also currently adds a link to the contact dashboard for easy payment.</comments>
+  <comments>This also currently adds a link to the contact dashboard for easy payment. PATCH 1.</comments>
   <civix>
     <namespace>CRM/Altinvoice</namespace>
   </civix>

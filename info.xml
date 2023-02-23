@@ -23,5 +23,9 @@
   <comments>This also currently adds a link to the contact dashboard for easy payment.</comments>
   <civix>
     <namespace>CRM/Altinvoice</namespace>
+    <format>22.05.2</format>
   </civix>
+  <mixins>
+    <mixin>setting-php@1.0.0</mixin>
+  </mixins>
 </extension>

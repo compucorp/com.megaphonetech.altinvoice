@@ -4,7 +4,7 @@ use CRM_Altinvoice_ExtensionUtil as E;
 /**
  * Collection of upgrade steps.
  */
-class CRM_Altinvoice_Upgrader extends CRM_Altinvoice_Upgrader_Base {
+class CRM_Altinvoice_Upgrader extends CRM_Extension_Upgrader_Base {
 
   private function addCustomData() {
     $optionValues = civicrm_api3('OptionValue', 'get', [
